@@ -2,7 +2,7 @@
 
 # O que é o Portfólio de João Antônio
 
-Esta é uma aplicação cque contém meus projetos dedseenvolvidos, um pouco sobre mim e meus contatos
+Esta é uma aplicação que contém meus projetos desenvolvidos, um pouco sobre mim e meus contatos
 
 ## Técnologias usadas
 
