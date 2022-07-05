@@ -1,0 +1,38 @@
+.welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.welcome > h1 {
+    height: 100%;
+    text-align: center;
+}
+
+@keyframes load {
+    0% {
+        transform: rotate(0deg); 
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.carregando-div {
+    display: flex;
+}
+
+.span-carregando {
+    padding-right: 5px;
+    color: white;
+}
+
+.loading {
+    font-size: 40px;
+    transform: rotate(360deg);
+    transition: 1s;
+    animation: load 2s linear infinite;
+    color: white;
+}

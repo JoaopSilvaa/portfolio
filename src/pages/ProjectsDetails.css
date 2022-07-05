@@ -1,0 +1,22 @@
+.mainProject {
+    text-align: justify;
+    margin: 15px;
+    margin-bottom: 28px;
+    font-size: 20px;
+}
+
+.mainProject > p {
+    margin-bottom: 30px;
+}
+
+.imgProject {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 450px) {
+    .imgProject {
+        width: 97%;
+        margin-left: 20px;
+    }
+}

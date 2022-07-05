@@ -5,6 +5,7 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
 import NotFound from './pages/NotFound';
+import ProjectDetails from './pages/ProjectsDetails';
 
 function App() {
   return (
@@ -25,6 +26,10 @@ function App() {
       <Route 
         path="/home"
         component={ Home }
+      />
+      <Route
+        path="/projectDetails/:id"
+        component={ ProjectDetails }
       />
       <Route 
         path="*"

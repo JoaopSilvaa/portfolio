@@ -1,4 +1,6 @@
 import { useEffect } from "react";
+import './Initial.css';
+import { FaSpinner } from 'react-icons/fa';
 
 function Initial(props) {
     const { history } = props;
@@ -9,7 +11,10 @@ function Initial(props) {
     }, []);
 
     return (
-        <h1>Olá, Seja bem vindo ao portfólio de João Antônio</h1>
+        <div className="welcome">
+            <h1>Olá, Seja bem vindo ao portfólio de João Antônio</h1>
+            <FaSpinner className='loading'/>
+        </div>
     );
 }
 
