@@ -7,7 +7,7 @@ function NotFound(props) {
         setTimeout(() => {
            history.push('/home');
         }, 2000);
-    }, []);
+    }, [history]);
 
     return (
         <main>

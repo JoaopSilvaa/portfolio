@@ -8,7 +8,7 @@ function Initial(props) {
         setTimeout(() => {
            history.push('/home');
         }, 3000);
-    }, []);
+    }, [history]);
 
     return (
         <div className="welcome">

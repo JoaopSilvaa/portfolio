@@ -1,0 +1,68 @@
+.skills {
+    margin-top: 7.5em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills h2 {
+    font-size: 2.3em;
+    text-align: center;
+    text-shadow: -1px -1px 9px rgb(2, 0, 92);
+}
+
+.title_skills {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+.title_skills h3 {
+    margin-right: 0.8em;
+}
+
+.hard_skills_description {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.hard_skills_description div {
+    border: 1px solid;
+    border-color: rgb(133, 133, 133);
+    border-radius: 5px;
+    width: 28%;
+    height: 25em;
+    box-shadow: 0px 0px 8px -1px rgba(92,92,92,1);
+}
+
+.hard_skills_description h4 {
+    text-align: center;
+}
+
+.hard_skills_description p {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.hard_skills_description div div svg {
+    width: 2em;
+    height: 2em;
+    color: white;
+}
+
+.hard_skills_description div div {
+    margin-top: 1.2em;
+    width: 3.5em;
+    height: 3.5em;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(2, 0, 92);
+}

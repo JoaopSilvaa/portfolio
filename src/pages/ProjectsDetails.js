@@ -11,7 +11,7 @@ function ProjectDetails({ match }) {
         const { id } = match.params;
         const projeto = projects.filter((element) => element.id === Number(id));
         setProject(projeto[0]);
-    }, []);
+    }, [match.params]);
     
     return (
         project && <main>
