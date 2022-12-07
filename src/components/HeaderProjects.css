@@ -1,0 +1,19 @@
+.header_projects {
+    margin-top: 3.5em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.header_projects h1 {
+    text-shadow: -1px -1px 9px rgb(2, 0, 92);
+    width: 75%;
+}
+
+.nav_item_projects { 
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+    font-size: 1.5em;
+    transition-duration: .25s;
+}

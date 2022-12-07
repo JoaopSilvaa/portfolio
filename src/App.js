@@ -9,16 +9,16 @@ function App() {
   return (
     <Switch>
       <Route 
-        path="/"
+        path="/portfolio"
         exact
         component={ Initial }
       />
       <Route 
-        path="/home"
+        path="/portfolio/home"
         component={ Home }
       />
       <Route
-        path="/projectDetails/:id"
+        path="/portfolio/projectDetails/:id"
         component={ ProjectDetails }
       />
       <Route 

@@ -1,12 +1,27 @@
 .mainProject {
-    text-align: justify;
     margin: 15px;
     margin-bottom: 28px;
     font-size: 20px;
 }
 
-.mainProject > p {
+.mainProject  p {
     margin-bottom: 30px;
+}
+
+.mainProject h1 {
+    margin-top: 2em;
+    border-left: 10px solid rgb(2, 0, 92);
+    padding-left: 1.3em;
+    margin-bottom: 2em;
+}
+
+.technologies {
+    font-family: DejaVu Sans Mono, monospace;
+    margin-left: 2em;
+    padding-left: 1em;
+    border-left: 8px solid rgb(2, 0, 92);
+    border-radius: 90px;
+
 }
 
 .imgProject {
@@ -14,9 +29,3 @@
     margin-bottom: 30px;
 }
 
-@media only screen and (min-width: 450px) {
-    .imgProject {
-        width: 97%;
-        margin-left: 20px;
-    }
-}

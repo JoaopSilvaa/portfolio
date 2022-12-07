@@ -1,14 +1,40 @@
 .footer {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
+    padding: 10px;
     margin-top: 20px;
-    background-color: #000729;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: -1px -1px 9px rgb(2, 0, 92);
 }
 
-.footer > a {
-    font-size: 40px;
-    color: white;
+.footer section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer section p {
+    text-align: center;
+}
+
+
+.social a {
+    transition: .25s;
     text-decoration: none;
-    padding-left: 10px;
+    color: rgb(70, 70, 70);
+}
+
+.social a:hover {
+    color: rgb(2, 0, 92);
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.3em;
+    width: 100%;
 }

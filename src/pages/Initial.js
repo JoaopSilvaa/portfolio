@@ -6,7 +6,7 @@ function Initial(props) {
     const { history } = props;
     useEffect(() => {
         setTimeout(() => {
-           history.push('/home');
+           history.push('/portfolio/home');
         }, 3000);
     }, [history]);
 

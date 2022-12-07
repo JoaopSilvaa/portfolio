@@ -5,7 +5,7 @@ function NotFound(props) {
     const { history } = props;
     useEffect(() => {
         setTimeout(() => {
-           history.push('/home');
+           history.push('/portfolio/home');
         }, 2000);
     }, [history]);
 
