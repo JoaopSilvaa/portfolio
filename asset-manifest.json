@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.87b23daf.css",
-    "main.js": "/portfolio/static/js/main.cf07d0af.js",
+    "main.css": "/portfolio/static/css/main.c32e68eb.css",
+    "main.js": "/portfolio/static/js/main.9533099e.js",
     "static/media/apprecipes.gif": "/portfolio/static/media/apprecipes.d7a5e948cd379ae33fa2.gif",
     "static/media/tunes.gif": "/portfolio/static/media/tunes.5c5a8d8fcfcb10915cbd.gif",
     "static/media/shopping.gif": "/portfolio/static/media/shopping.419443c4bddb0556a26e.gif",
@@ -17,11 +17,11 @@
     "static/media/shopping-cart-vectorportal-removebg-preview.png": "/portfolio/static/media/shopping-cart-vectorportal-removebg-preview.bea14db1e8b734201b92.png",
     "static/media/algo-removebg-preview.png": "/portfolio/static/media/algo-removebg-preview.12230631630066cf9a01.png",
     "index.html": "/portfolio/index.html",
-    "main.87b23daf.css.map": "/portfolio/static/css/main.87b23daf.css.map",
-    "main.cf07d0af.js.map": "/portfolio/static/js/main.cf07d0af.js.map"
+    "main.c32e68eb.css.map": "/portfolio/static/css/main.c32e68eb.css.map",
+    "main.9533099e.js.map": "/portfolio/static/js/main.9533099e.js.map"
   },
   "entrypoints": [
-    "static/css/main.87b23daf.css",
-    "static/js/main.cf07d0af.js"
+    "static/css/main.c32e68eb.css",
+    "static/js/main.9533099e.js"
   ]
 }
