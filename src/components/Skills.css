@@ -87,3 +87,36 @@
     height: 10em;
     box-shadow: 0px 0px 8px -1px rgba(92,92,92,1);
 }
+
+@media only screen and (320px <= width <= 480px) {
+    .skills {
+        margin-top: 1.5em;
+    }
+    
+    .skills h2 {
+        font-size: 1.8em;
+        text-shadow: -1px -1px 9px rgb(2, 0, 92);
+    }
+    
+    .title_skills {
+        font-size: 1.3em;
+    }
+
+    .hard_skills_description {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .hard_skills_description div {
+        width: 80%;
+        height: 23em;
+        margin-bottom: 1em;
+    }
+    
+    .soft_skills ul {
+        width: 55%;
+        height: 5em;
+    }
+}

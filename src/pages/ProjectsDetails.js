@@ -13,20 +13,22 @@ function ProjectDetails({ match }) {
         setProject(projeto[0]);
     }, [match.params]);
     
-    return (
-        project && <main>
+    return(
+        project !== undefined && <main>
                 <HeaderProjects />
                 <section className='mainProject'>
                     <h1>{project.title}</h1>
                     <p>{project.description}</p>
                     <p className='technologies'><b><u>Tecnologias utilizadas: </u></b><br />{project.technologies}</p>
-                    <img src={project.gif} alt={project.title} className='imgProject'/>
-                    Clique <a className='linkForGithub' href={project.url} target="_blank" rel="noreferrer">aqui</a> para acessar o repositório.
-                    </section>
+                    <div className='div_img_project'>
+                        <img src={project.gif} alt={project.title} className='imgProject'/>
+                    </div>
+                    <p>Clique <a className='linkForGithub' href={project.url} target="_blank" rel="noreferrer">aqui</a> para acessar o repositório.</p>
+                </section>
                 <Footer />
-            </main>
+            </main> 
     );
-  }
+}
   
-  export default ProjectDetails;
+export default ProjectDetails;
   

@@ -57,3 +57,48 @@
 .icons_about a:hover{
     color: rgb(2, 0, 92);
 }
+
+@media only screen and (320px <= width <= 480px) {
+    .about_me {
+        margin-top: 1.4em;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    
+     .text_about {
+        width: 40%;
+        font-size: 0.7em;
+    }
+    
+    .about_me img {
+        width: 40%;
+        border-radius: 15px;
+        border: 2px solid;
+        border-color: rgb(2, 0, 92);
+    }
+    
+    
+    .button_go_contact {
+        text-align: center;
+        border-radius: 7px;
+        padding: 0.5rem;
+        font-size: 0.9em;
+        width: 14em;
+        background-color: rgb(2, 0, 92);
+    }
+    
+    .button_go_contact a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+
+    .icons_about a {
+        font-size: 2.5em;
+        transition: .25s;
+        text-decoration: none;
+        color: rgb(70, 70, 70);
+    }
+    
+}

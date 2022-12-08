@@ -2,7 +2,7 @@ import CardProject from "../components/CardProject";
 import { projects } from '../dataProjects';
 import './Projects.css';
 
-function Projects({ props }) {
+function Projects() {
   return (
     <main className="main_projects" id='projects'>
       <h2>Projetos desenvolvidos</h2>

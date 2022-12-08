@@ -77,3 +77,13 @@
     text-align: center;
     font-size: 1.1em;
 }
+
+@media only screen and (320px <= width <= 480px) {
+    .formContact {
+        width: 95%;
+    }
+
+    .buttonContact {
+        color: white;
+    }
+}
